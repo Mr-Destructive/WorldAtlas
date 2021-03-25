@@ -1,0 +1,95 @@
+body{
+	background-color:#000077;
+}
+h1, h2 {
+  text-align:center;
+  color:#00ffff;
+}
+
+nav{ 
+display:flex;
+justify-content:center;
+}
+li{
+	display:block;
+	list-style-type:none;
+	padding:5px;
+	height:40px;
+	width:200px;
+	padding-left:0pt;
+	font-size:250%;
+	float:left;
+	text-align:center;
+	overflow:hidden;
+	background-color:#00dd00;
+} 
+#logo{
+	height:200px;
+	width:200px;
+	position:absolute;
+	left:10%;
+	top:5%;
+}
+#place{
+	position:absolute;
+	top:120%;
+	left:10%;
+	height:30px;
+	width:60%;
+	font-size:30px;
+	z-index:0;
+}
+#submit{
+	position:absolute;
+	top:120%;
+	left:75%;
+	height:35px;
+	width:175px;
+	font-size:30px;
+}
+
+#com{
+	position:absolute;
+	top:30%;
+	left:27%;
+	font-size:45px;
+   	color:white;
+	overflow:scroll;
+	height:300px;
+}
+#ply{
+	position:absolute;
+	top:30%;
+	left:50%;
+	font-size:45px;
+	color:#44ee00;
+	overflow:scroll;
+	height:300px;
+
+}
+#com::-webkit-scrollbar{
+	display:none;}
+#com{
+	-ms-overflow-style:none;
+	scrollbar-width:none;}
+#ply::-webkit-scrollbar{
+	display:none;}
+#ply{
+	-ms-overflow-style:none;
+	scrollbar-width:none;}
+#info{
+	position:absolute;
+	top:175px;
+	left:150px;
+	font-size:45px;
+	color:#66cc44;
+}
+#scorecard{
+	position:absolute;
+	top:175px;
+	left:75%;
+	font-size:45px;
+	color:#f8fc00;
+}
+
+
