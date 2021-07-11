@@ -1,5 +1,12 @@
 body{
 	background-color:#000077;
+	text-align:center;
+}
+a{
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:700;
+
 }
 h1, h2 {
   text-align:center;
@@ -7,13 +14,16 @@ h1, h2 {
 }
 
 nav{ 
-display:flex;
+display:block;
 justify-content:center;
 }
-li{
+ul{
+list-style-type:none;
+}
+.navlinks{
 	display:block;
 	list-style-type:none;
-	padding:5px;
+	padding:7px;
 	height:40px;
 	width:200px;
 	padding-left:0pt;
@@ -22,7 +32,17 @@ li{
 	text-align:center;
 	overflow:hidden;
 	background-color:#00dd00;
+	position:relative;
+	left:33%;
 } 
+nav li:hover{
+	background-color:#0014ff;
+	color:#00dd00;
+}
+a:hover{
+	background-color:#0014ff;
+	color:white;
+}
 #logo{
 	height:200px;
 	width:200px;
@@ -30,9 +50,15 @@ li{
 	left:10%;
 	top:5%;
 }
+.content{
+	color:#f4ffff;
+	margin:10%;
+	font-size:200%;
+	font-weight:600;
+}
 #place{
 	position:absolute;
-	top:120%;
+	top:90%;
 	left:10%;
 	height:30px;
 	width:60%;
@@ -41,7 +67,7 @@ li{
 }
 #submit{
 	position:absolute;
-	top:120%;
+	top:90%;
 	left:75%;
 	height:35px;
 	width:175px;
@@ -50,21 +76,21 @@ li{
 
 #com{
 	position:absolute;
-	top:30%;
+	top:36%;
 	left:27%;
 	font-size:45px;
    	color:white;
 	overflow:scroll;
-	height:300px;
+	height:280px;
 }
 #ply{
 	position:absolute;
-	top:30%;
+	top:36%;
 	left:50%;
 	font-size:45px;
 	color:#44ee00;
 	overflow:scroll;
-	height:300px;
+	height:280px;
 
 }
 #com::-webkit-scrollbar{

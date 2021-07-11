@@ -63,8 +63,11 @@ plyr=plyr.toLowerCase();
 
 	if(toss==1){
 	if(plyr[0] !== clast){
+		document.getElementById("info").innerHTML="";
 		document.getElementById("info").innerHTML+='<br >Invalid Place <br >Game Over';
 		document.getElementById("info").innerHTML+='<br >You scored : '+pt;
+		document.getElementById("com").innerHTML="";
+		document.getElementById("ply").innerHTML="";
 		return 1;}
 	}
 		
@@ -89,6 +92,9 @@ plyr=plyr.toLowerCase();
 		pt+=1
 	}
 	else{
+		document.getElementById("info").innerHTML="";
+		document.getElementById("com").innerHTML="";
+		document.getElementById("ply").innerHTML="";
 		document.getElementById("info").innerHTML+='<br >Invalid Place <br >Game Over';
 		document.getElementById("info").innerHTML+='<br >You scored : '+pt;
 		pt=-1;}				
