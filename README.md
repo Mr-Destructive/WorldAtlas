@@ -1,6 +1,7 @@
 # World Atlas
 ![Logo](webpage/img/W.png)
- ### World Atlas is a geographical word game. Click [World Atlas](https://mr-destructive.github.io/WorldAtlas/webpage/index.html) to go to the game's webpage.
+
+### World Atlas is a geographical word game. Click [World Atlas](https://mr-destructive.github.io/WorldAtlas/webpage/index.html) to go to the game's webpage.
   
 ## What is World Atlas?
 
