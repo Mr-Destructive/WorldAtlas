@@ -9,23 +9,23 @@ a{
 
 }
 h1, h2 {
-  text-align:center;
-  color:#00ffff;
+	text-align:center;
+	color:#00ffff;
 }
 
 nav{ 
-display:block;
-justify-content:center;
+	display:block;
+	justify-content:center;
 }
 ul{
-list-style-type:none;
+	list-style-type:none;
 }
 .navlinks{
 	display:block;
 	list-style-type:none;
 	padding:7px;
 	height:40px;
-	width:200px;
+	width:20%;
 	padding-left:0pt;
 	font-size:250%;
 	float:left;
@@ -33,7 +33,7 @@ list-style-type:none;
 	overflow:hidden;
 	background-color:#00dd00;
 	position:relative;
-	left:33%;
+	left:27%;
 } 
 nav li:hover{
 	background-color:#0014ff;
@@ -47,7 +47,7 @@ a:hover{
 	height:200px;
 	width:200px;
 	position:absolute;
-	left:10%;
+	left:0%;
 	top:5%;
 }
 .content{
@@ -77,8 +77,8 @@ a:hover{
 #com{
 	position:absolute;
 	top:36%;
-	left:27%;
-	font-size:45px;
+	left:10%;
+	font-size:50px;
    	color:white;
 	overflow:scroll;
 	height:280px;
@@ -86,12 +86,11 @@ a:hover{
 #ply{
 	position:absolute;
 	top:36%;
-	left:50%;
-	font-size:45px;
+	left:55%;
+	font-size:50px;
 	color:#44ee00;
 	overflow:scroll;
 	height:280px;
-
 }
 #com::-webkit-scrollbar{
 	display:none;}
